@@ -5,7 +5,7 @@ import smtplib, ssl
 # Define function to read in user input and open url to read file contents
 def UrlReader(N):
     # Desired page url
-    url = 'https://www.cmgcheckin.com/login/exceptionlistupdate.txt'
+    url = 'https://url.txt'
 
     # Utilize urllib to open url assign it to variable f
     with urllib.request.urlopen(url) as f:
